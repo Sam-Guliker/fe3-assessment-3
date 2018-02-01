@@ -1,0 +1,53 @@
+
+.bar {
+  fill: #2e2e2e;
+}
+
+.bar:hover {
+  fill: coral;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  display:flex;
+}
+.center-content{
+  margin:auto;
+}
+h1,p{
+  font-family: 'Lato', sans-serif;
+}
+
+.beer, .wine{
+  display: inline-block;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  margin-right:5px;
+  position:relative;
+}
+.beer{
+    background-color:#FFC636;
+}
+.wine{
+    background-color:#FF6444;
+}
+
+p:nth-child(3){
+  position: relative;
+  right:0;
+}

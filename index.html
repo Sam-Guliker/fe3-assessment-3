@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <!-- Data source:https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption -->
+  <!-- Chart source: -->
+  <meta charset="utf8">
+  <link rel="shortcut icon" type=image/x-icon href="data:image/x-icon">
+  <title>@Senmetsu</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+  <div class="center-content">
+    <h1>Assessment 3</h1>
+    <p>Het aantal gallons dat per jaar gedronken word per persoon. <br>1 Gallon = 3.14 liters</p>
+    <p>Als je met je muis over de barchart heen gaat zie je hoeveel bier en wijn er per persoon word gedronken per land.</p>
+    <p><span class="beer"></span>Bier</p>
+    <p><span class="wine"></span>Wijn</p>
+    <svg id="barchart"width="380" height="400"></svg>
+    <svg id="piechart"width="760" height="300"></svg>
+  </div>
+  <script src="javascript/d3.js"></script>
+</body>
