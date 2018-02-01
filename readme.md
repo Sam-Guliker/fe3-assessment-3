@@ -1,6 +1,8 @@
 # Assessment 3: Alcohol Consumption
 ![preview](preview.png)
 
+## Github Pages
+[Assessment 3](https://senmetsu.github.io/fe3-assessment-3/.)
 ## Beschrijving
 Data aanpassen dmv Join, Exit.
 
