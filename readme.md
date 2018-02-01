@@ -90,7 +90,7 @@ MIT Sam Guliker
 
 ## Features
 * [scaleBand](https://github.com/d3/d3-scale/blob/master/README.md#scaleBand)
-* [rangeRound](https://github.com/d3/d3-scale#band_rangeRound) -
+* [rangeRound](https://github.com/d3/d3-scale#band_rangeRound)
 * [data binding](http://alignedleft.com/tutorials/d3/binding-data )
 * [domain](https://github.com/d3/d3-scale/blob/master/README.md#quantize_domain)
 * [range](https://github.com/d3/d3-scale/blob/master/README.md#quantize_range)
