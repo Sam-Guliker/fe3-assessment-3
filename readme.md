@@ -2,7 +2,7 @@
 ![preview](preview.png)
 
 ## Beschrijving
-Data veranderen dmv Join, Exit.
+Data aanpassen dmv Join, Exit.
 
 ## Background
 Ik heb voornamelijk mijn data opgeruimd met [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) hier word er gebruikt gemaakt van [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
