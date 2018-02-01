@@ -18,6 +18,7 @@ var svgPie = d3.select("#piechart"),
     radius = Math.min(widthPie, heightPie) / 2,
     gPie = svgPie.append("g").attr("transform", "translate(" + widthPie / 2 + "," + heightPie / 2 + ")");
 
+/* Ordinal scale is niet zoals een domain je zet de kleuren bijvoorbeeld vast https://github.com/d3/d3-scale/blob/master/README.md#scaleOrdinal*/
 var color = d3.scaleOrdinal(["#FFC636", "#FF6444"]);
 
 var pie = d3.pie()
@@ -32,6 +33,7 @@ var labelPie = d3.arc()
     .outerRadius(radius - 40)
     .innerRadius(radius - 40);
 
+/* laad de data in*/
 d3.csv("data/drinks.csv", function(drinks) {
   drinks.total_litres_of_pure_alcohol_servings =+drinks.total_litres_of_pure_alcohol_servings;
   drinks.beer_servings =+drinks.beer_servings;
@@ -104,7 +106,7 @@ d3.csv("data/drinks.csv", function(drinks) {
           "translate(" + (width/2) + " ," +
                          (height + margin.top + 0) + ")")
     .style("text-anchor", "middle")
-    .text("Country");
+    .text("Landen");
 
   /*Voegt data en attributen toe aan alle bars in mijn svgBar*/
   gBar.selectAll(".bar")
@@ -140,7 +142,7 @@ d3.csv("data/drinks.csv", function(drinks) {
     arc.append("path")
     arc.append("text")
 
-
+ /* Update functie */
     function handleMouseOver(data){
       var pie = d3.pie()
           .sort(null)
