@@ -2,7 +2,7 @@
 ![preview](preview.png)
 
 ## Github Pages
-[Assessment 3](https://senmetsu.github.io/fe3-assessment-3/.)
+[Assessment 3](https://sam-guliker.github.io/fe3-assessment-3/.)
 ## Beschrijving
 Data aanpassen dmv Join, Exit.
 
